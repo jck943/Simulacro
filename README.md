@@ -7,6 +7,8 @@
 3. [Tercera función](#Tercera)
 4. [Resumen](#Resumen)
 
+<div id="Menu"></div>
+
 ## Crear el menú
 Los primeros pasos para crear el *menú* has sido:
 1. Hacer un `while True` para que el menú este en **bucle** 
@@ -40,4 +42,33 @@ print("\nFin del programa")
 ```
 > Después de este avance voy a hacer un ***`git push origin`*** con su respectivo ***`git add.`*** y su "foto" ***`git commit -m "mensaje"`***
 
+<div id="Primera"></div>
+
 ## Primera función
+Los primeros pasos para hacer la *primera función* has sido:
+1. Llamar a la función en la **parte superior del porgrama** (ya que se tienen que situar ahí)
+2. Introducir los números que más tarde se van a pedir al usuario
+3. Devolver un `print("Suma: " + str(a + b))` para que el usuario vea cual es la suma
+4. Llamar a la función en la *opción 1* (Sumar dos enteros)
+5. Pedir al usuario que introduzca dos números
+El código que he utilizado es el siguiente:
+
+```py
+def suma_de_numeros(numero1, numero2):
+    print("Suma: " + str(numero1 + numero2))
+```
+> Función
+```py
+ suma_de_numeros(
+            int(input("Introduce el primer número: ")),
+            int(input("Introduce el segundo número: "))
+        )
+```
+> Pedir datos
+
+Lo que hace esta función es lo siguiente (explicado en una tabla): 
+| numero 1| numero2 | Suma |
+|---------|---------|------|
+| 5       | 7       | 12   |
+
+> Después de este avance volveré a hacer un ***`git push origin`*** con su respectivo ***`git add.`*** y su "foto" ***`git commit -m "mensaje"`***

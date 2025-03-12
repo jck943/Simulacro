@@ -1,3 +1,6 @@
+def suma_de_numeros(numero1, numero2):
+    print("Suma: " + str(numero1 + numero2))
+
 while True:
     print()
     print("Opción 1: Pedir dos números y devolver su suma.")
@@ -10,7 +13,10 @@ while True:
     except:
         opcion = -1
     if opcion == 1:
-        print("opcion 1")
+        suma_de_numeros(
+            int(input("Introduce el primer número: ")),
+            int(input("Introduce el segundo número: "))
+        )
     elif opcion == 2:
         print("opcion 2")
     elif opcion == 3:
